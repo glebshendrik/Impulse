@@ -1,0 +1,87 @@
+/* 
+  Localizable.strings
+  Impulse
+
+  Created by Gleb Shendrik on 07.10.2020.
+  
+*/
+"all-widgets.title" = "All Widgets";
+"all-widgets.colors" = "Colors";
+"all-widgets.images" = "Images";
+"all-widgets.photos" = "Photos";
+"all-widgets.make-photo-widget" = "Make photo widget";
+
+"all-widgets.succes-alert.selected.title" = "Widget selected";
+"all-widgets.succes-alert.added.title" = "Widget added";
+"all-widgets.succes-alert.body" = "You can install it from your home screen. Use help (?) for detailed instructions.";
+
+"instruction.title" = "How to add widget";
+
+"make-photo-widget.title" = "Photo widget";
+"make-photo-widget.choose-photo" = "Choose photo";
+"make-photo-widget.save-as-new" = "Save as new widget";
+"make-photo-widget.set-widget" = "Set widget";
+
+"make-time-widget.title" = "Time widget";
+"make-time-widget.choose-photo" = "Choose photo";
+"make-time-widget.text-color" = "Text color";
+"make-time-widget.show-battery" = "Show battery percentage";
+"make-time-widget.save-as-new" = "Save as new widget";
+"make-time-widget.set-widget" = "Set widget";
+
+"my-widgets.title" = "My Widgets";
+"my-widgets.widget-name" = "Widget %ld";
+"my-widgets.info" = "Long press on the widget on your home screen, tap \"Edit Widget\" to choose which widget to show";
+
+"themes.title" = "Themes";
+"themes.tell-us" = "Share your feedback! Tell us what themes you want to see";
+"themes.write-review" = "Write a review";
+
+"theme-info.icons" = "icons";
+"theme-info.wallpapers" = "wallpapers";
+"theme-info.widgets" = "widgets";
+"theme-info.install" = "Install Theme";
+
+"settings.title" = "Settings";
+"settings.header.title" = "Please";
+"settings.header.body" = "Tell your\n friends";
+"settings.header.about-our-app" = "about our App";
+"settings.header.share" = "Share App";
+"settings.share.message" = "Check out Widgets GO!";
+"settings.how-to-add-widget" = "How to add widget?";
+"settings.how-to-add-multiple-widgets" = "How to add multiple widgets?";
+"settings.contact-us" = "Contact Us";
+"settings.contact-us.error.title" = "Email not configured";
+"settings.contact-us.error.descr" = "Please add an e-mail account to mobile settings or write to:";
+"settings.write-review" = "Rate Us";
+
+"sorry-screen.title" = "We’re sorry :’(";
+"sorry-screen.body" = "You need to reinstall your widgets because of our latest update. We’ve added new features that can’t work without reinstalling.";
+
+"tl-photos-picker.gallery.body" = "Photo gallery access required to select photos";
+"tl-photos-picker.camera.body" = "Camera access required";
+"tl-photos-picker.cancel" = "Cancel";
+"tl-photos-picker.settings" = "Settings";
+
+
+"theme-instruction.title" = "How to install theme";
+"theme-instruction.download.downloading" = "Downloading";
+"theme-instruction.download.wallpaper-downloaded" = "Wallpapers downloaded";
+"theme-instruction.download.title" = "Download Wallpapers";
+"theme-instruction.download.descr" = "Download the wallpaper for this theme. After downloading, the wallpaper will appear in your Camera Roll.";
+"theme-instruction.download.btn" = "Download wallpaper";
+"theme-instruction.set-wallpaper.title" = "Set Wallpapers";
+"theme-instruction.set-wallpaper.descr" = "Go to Settings > Wallpaper and set your downloaded wallpaper.";
+"theme-instruction.download-icons.title" = "Download Icons";
+"theme-instruction.download-icons.descr" = "Download the icons for this theme.";
+"theme-instruction.download-icons.btn" = "Download icons";
+"theme-instruction.download.icons-downloaded" = "Icons downloaded";
+"theme-instruction.shortcuts.title" = "Create Shortcuts";
+"theme-instruction.shortcuts.descr" = "Read a detailed guide on how to replace app icons with the Shortcut app.";
+"theme-instruction.shortcuts.btn" = "See instruction";
+"theme-instruction.add-widget.title" = "Add Widgets";
+"theme-instruction.add-widget.descr" = "Add widgets from the theme. When added, they will appear on the My Widgets tab.";
+"theme-instruction.add-widget.btn" = "Add widgets";
+"theme-instruction.add-widget.btn-added" = "Widgets added";
+"theme-instruction.select-widget.title" = "Select Widgets";
+"theme-instruction.select-widget.descr" = "Add widgets from Widgets GO! to your Home Screen. Select the one you need with the Edit Widget menu.";

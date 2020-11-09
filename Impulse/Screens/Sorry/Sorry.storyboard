@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sorry View Controller-->
+        <scene sceneID="6rd-ZZ-lL3">
+            <objects>
+                <viewController storyboardIdentifier="SorryViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yJc-BB-rXz" customClass="SorryViewController" customModule="Impulse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fsf-b3-Od6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sorry-image" translatesAutoresizingMaskIntoConstraints="NO" id="AVi-7D-LpV">
+                                <rect key="frame" x="66" y="244" width="282" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="ze4-XW-H1S"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We’re sorry :’(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfp-bJ-4gr">
+                                <rect key="frame" x="103" y="460" width="208" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                <color key="textColor" red="0.14910897610000001" green="0.14077481629999999" blue="0.1607868969" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ww4-sO-fMb">
+                                <rect key="frame" x="23" y="519" width="368" height="63"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="You need to reinstall your widgets because of our latest update. We’ve made new features wich can’t work without reinstalling.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.14910897610000001" green="0.14077481629999999" blue="0.1607868969" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" minimumLineHeight="21" maximumLineHeight="21" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3r8-RG-wwo">
+                                <rect key="frame" x="368" y="50" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gyf-a7-S57"/>
+                                    <constraint firstAttribute="width" constant="40" id="h5F-VJ-Yzj"/>
+                                </constraints>
+                                <state key="normal" image="close-blue"/>
+                                <connections>
+                                    <action selector="onTapClose:" destination="yJc-BB-rXz" eventType="touchUpInside" id="dJy-mo-JKj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XyG-SD-ft8"/>
+                        <color key="backgroundColor" red="0.95294767619999998" green="0.95292967559999997" blue="0.95294183489999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Ww4-sO-fMb" firstAttribute="top" secondItem="mfp-bJ-4gr" secondAttribute="bottom" constant="18" id="1on-Yv-jvu"/>
+                            <constraint firstItem="3r8-RG-wwo" firstAttribute="top" secondItem="XyG-SD-ft8" secondAttribute="top" constant="6" id="CPa-5s-hur"/>
+                            <constraint firstItem="mfp-bJ-4gr" firstAttribute="centerX" secondItem="XyG-SD-ft8" secondAttribute="centerX" id="MbC-jc-b6T"/>
+                            <constraint firstItem="AVi-7D-LpV" firstAttribute="top" secondItem="XyG-SD-ft8" secondAttribute="top" constant="200" id="OZf-GO-Vei"/>
+                            <constraint firstItem="AVi-7D-LpV" firstAttribute="leading" secondItem="XyG-SD-ft8" secondAttribute="leading" constant="66" id="a7y-tn-7f4"/>
+                            <constraint firstItem="XyG-SD-ft8" firstAttribute="trailing" secondItem="3r8-RG-wwo" secondAttribute="trailing" constant="6" id="bjs-iz-aB6"/>
+                            <constraint firstItem="XyG-SD-ft8" firstAttribute="trailing" secondItem="AVi-7D-LpV" secondAttribute="trailing" constant="66" id="fRb-Xf-rMr"/>
+                            <constraint firstItem="mfp-bJ-4gr" firstAttribute="top" secondItem="AVi-7D-LpV" secondAttribute="bottom" constant="68" id="rrh-Op-cqg"/>
+                            <constraint firstItem="Ww4-sO-fMb" firstAttribute="leading" secondItem="XyG-SD-ft8" secondAttribute="leading" constant="23" id="yvI-6L-Sz0"/>
+                            <constraint firstItem="XyG-SD-ft8" firstAttribute="trailing" secondItem="Ww4-sO-fMb" secondAttribute="trailing" constant="23" id="zZq-zz-pyv"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="descrLabel" destination="Ww4-sO-fMb" id="1b2-kE-F44"/>
+                        <outlet property="titleLabel" destination="mfp-bJ-4gr" id="1Uv-jQ-UCe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UYy-eq-XAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-288.40579710144931" y="32.142857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close-blue" width="14" height="14"/>
+        <image name="sorry-image" width="247" height="149"/>
+    </resources>
+</document>
